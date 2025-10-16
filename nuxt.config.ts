@@ -103,11 +103,11 @@ export default defineNuxtConfig({
           manualChunks: {
             globe: ['globe.gl'],
             charts: ['@unovis/vue', '@unovis/ts'],
-            d3: ['d3-scale', 'd3-scale-chromatic']
-          }
-        }
-      }
-    }
+            d3: ['d3-scale', 'd3-scale-chromatic'],
+          },
+        },
+      },
+    },
   },
 
   hub: {
@@ -155,6 +155,9 @@ export default defineNuxtConfig({
      */
     componentDir: './app/components/ui',
   },
+<<<<<<< HEAD
+})
+=======
 })
 ```
 
@@ -178,3 +181,4 @@ KV namespace: KV → shorturl
 **Should Be:**
 ```
 KV namespace: KV → 771d749f8c9a4ec18dbf44a5a760a195
+>>>>>>> df5316dc7a664d4f3361820074f703863fb8318d
